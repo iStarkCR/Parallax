@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Parallax</title>
+
+        <link href="https://fonts.googleapis.com/css2?family=Roboto" rel="stylesheet">
+
+        <style type="text/css">
+            /*Configuracoes padroes*/
+            body, html {
+                margin: 0;
+                font-family: 'Roboto',sans-serif;
+                color: rgb(20, 20, 20);
+                height: 100%;
+                
+            }
+
+            .conteudo {
+                color: rgb(115, 113, 113) ;
+                background-color: rgb(228, 186, 186);
+                padding: 50px 80px;
+                text-align: justify
+            }
+
+            h3 {
+                text-transform: uppercase;
+                text-align: center;
+                color:#111 ;
+            }
+
+            /*Efeito parallax*/
+
+            .caixa1, .caixa2, .caixa3, .caixa4, .caixa5 {
+                position: relative;
+                height: 100%;
+                opacity: 0.7;
+                background-repeat: no-repeat;
+                background-size: cover ;
+                background-position: center;
+                background-attachment: fixed;               
+
+            }
+
+            .caixa1{
+                background-image: url(/assets/img/imagem1.jpg);
+            }
+
+            .caixa2{
+                background-image: url(/assets/img/imagem2.jpg);
+            }
+            .caixa3{
+                background-image: url(/assets/img/imagem3.jpg);
+            }
+            .caixa4{
+                background-image: url(/assets/img/imagem4.jpg);
+            }
+            .caixa5{
+                background-image: url(/assets/img/imagem5.jpg);
+            }
+            
+            .conteudo-titulo {
+                position: absolute;
+                left: 0%;
+                top: 45%;
+                width: 100%;
+                color: #fff;
+                text-align: center;
+               
+            }
+
+            .conteudo-titulo span.titulo {
+                color: #fff ;
+                background-color: #111;
+                padding: 18px;
+                font-size: 25px;
+                letter-spacing: 5px;
+                text-transform: uppercase;            }
+        </style>
+       
+
+    </head>
+    <body>
+
+        <div class="caixa1">
+            <div class="conteudo-titulo">
+                <span class="titulo">Passeio de Baloes</span>           
+             </div>
+         </div>  
+        <div class="conteudo">
+            <h3>Parallax</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas commodo ante fringilla ipsum pretium, quis pharetra neque commodo. In at lorem dictum turpis auctor placerat ut sit amet velit. Etiam tincidunt, nunc vel finibus sollicitudin, ipsum diam lobortis sapien, id volutpat purus justo a arcu. Duis vitae tincidunt tellus, sit amet tincidunt quam.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas commodo ante fringilla ipsum pretium, quis pharetra neque commodo. In at lorem dictum turpis auctor placerat ut sit amet velit. Etiam tincidunt, nunc vel finibus sollicitudin, ipsum diam lobortis sapien, id volutpat purus justo a arcu. Duis vitae tincidunt tellus, sit amet tincidunt quam.
+            </p>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas commodo ante fringilla ipsum pretium, quis pharetra neque commodo. In at lorem dictum turpis auctor placerat ut sit amet velit. Etiam tincidunt, nunc vel finibus sollicitudin, ipsum diam lobortis sapien, id volutpat purus justo a arcu. Duis vitae tincidunt tellus, sit amet tincidunt quam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas commodo ante fringilla ipsum pretium, quis pharetra neque commodo. In at lorem dictum turpis auctor placerat ut sit amet velit. Etiam tincidunt, nunc vel finibus sollicitudin, ipsum diam lobortis sapien, id volutpat purus justo a arcu. Duis vitae tincidunt tellus, sit amet tincidunt quam.
+            </p>
+        </div>
+
+        <div class="caixa2">
+            <div class="caixa2">
+                <div class="conteudo-titulo">
+                    <span class="titulo">Passeio de Baloes</span>           
+                 </div>
+             </div>
+
+        </div>
+
+        <div class="caixa3">
+            <div class="caixa3">
+                <div class="conteudo-titulo">
+                    <span class="titulo">Passeio de Baloes</span>           
+                 </div>
+             </div> 
+        </div>
+
+        <div class="caixa4">
+            <div class="caixa4">
+                <div class="conteudo-titulo">
+                    <span class="titulo">Passeio de Baloes</span>           
+                 </div>
+             </div>  
+        </div>
+
+        <div class="caixa5">
+            <div class="caixa5">
+                <div class="conteudo-titulo">
+                    <span class="titulo">Passeio de Baloes</span>           
+                 </div>
+             </div> 
+        </div>
+
+    </body>
+</html>
